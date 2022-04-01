@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/index.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    
+
+</head>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/a0dde33553.js" crossorigin="anonymous"></script>
+<body>
+
+     <!-- sidebar -->
+
+    <nav class="nav" >
+        <div id="sidebarmenu">
+            <div class="line1">
+                <div class="innerline1">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="innerline2"><a href="signup.html">Login or Signup</a></div>
+            </div>
+            <div class="line2">
+                <div class="innerline1">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="innerline2" onclick="myfun()" >Change City</div>
+                <div class="innerline3">Bangalore</div>
+            </div>
+            <div class="line3">
+                <div class="innerline1">
+                    <i class="fa-solid fa-shield"></i>
+                </div>
+                <div class="innerline2">Supermiler Club</div>
+            </div>
+            <div class="line3">
+                <div class="innerline1">
+                    <i class="fa-solid fa-copy"></i>
+                </div>
+                <div class="innerline2">Zoomcar Fleet Vehicles Policies</div>
+            </div>
+            <div class="line3">
+                <div class="innerline1">
+                    <i class="fa-solid fa-copy"></i>
+                </div>
+                <div class="innerline2">Zoomcar Host Vehicles Policies</div>
+            </div>
+            <div class="line3">
+                <div class="innerline1">
+                    <i class="fa-solid fa-phone-flip"></i>
+                </div>
+                <div class="innerline2">Help & Support</div>
+            </div>
+        </div>
+       <div class="overlay"></div>
+    </nav>
+    
+
+    <!-- navbar -->
+    <main>
+        <div id="navbar">
+            <div id="box1">
+                <div id="bar" ><i  class="fa-solid fa-bars"></i></div>
+                <div class="im"><img src="https://www.zoomcar.com/build/98e56e8b0b91e8806885a22ac2bf69a7.png" /></div></div>
+            <div id="box2">
+                <div><a class="a1" href="host.html">Become a Host</a></div>
+                <div><a class="a1" href="zms.html">ZMS</a></div>
+                <div><a class="a1" href="signup.html">Login/Signup</a></div>
+            </div>
+        </div>
+    
+     <!-- changecity -->
+
+        <div id="changecity">
+            <div class="box">
+              Select your country/city
+            </div>
+            <div class="box1">
+              <div id="small1">
+                  <div class="innerbox1">
+                    <i class="fa-solid fa-location-dot fa-2x"></i>
+                  </div>
+                  <div class="innerbox2">
+                      <input type="text" placeholder="India" id="smallbox1" />
+                  </div>
+                  <div class="innerbox3">
+                    <i class="fa-solid fa-sort-down"></i>
+                  </div>
+              </div>
+              <div id="small2">
+                <div class="innerbox1">
+                    <i class="fa-solid fa-location-dot fa-2x"></i>
+                </div>
+                <div class="innerbox2">
+                    <input type="text" placeholder="Bangalore" id="smallbox2" />
+                </div>
+                <div class="innerbox3">
+                    <i class="fa-solid fa-sort-down"></i>
+                </div>
+              </div>
+            </div>
+            <div id="lastbox" onclick="myfun2()">CONFIRM</div>
+      </div>
+    
+    <!-- fincars -->
+    
+        <div id="container">
+            <div class="select">
+                <span>Round Trip</span>
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="choosen" onclick="window.location.href='picup.html'" >
+                <div></div>
+                <span id="lala" >Pick up city,Airport,Address or Hotel</span>
+            </div>
+            <div class="search" onclick="window.location.href='findcars.html'">
+                FIND CARS
+            </div>
+        </div>
+    
+    <!-- offers photos -->
+     
+        <div id="container2">
+            <div class="box1">
+                <img src="https://zoomcar-assets.zoomcar.com/pictures/original/805f174043c9bcda0c566385219cf67562e4903a.jpg?1647603497"/>
+            </div>
+            <div class="box2">
+                <img src="https://zoomcar-assets.zoomcar.com/pictures/original/b066b30cadb2e7f525f37cbfcccfeb837837bfa5.jpeg?1647411291" />
+            </div>
+            <div class="box3">
+                <img src="https://zoomcar-assets.zoomcar.com/pictures/original/03a03794f63f6b3208eb89f42cd16339441e2946.jpeg?1646721892" />
+            </div>
+            <div class="box4">
+                <img src="https://zoomcar-assets.zoomcar.com/pictures/original/378f52cd9ee91c071304836fb21b9be5fd09c69e.jpeg?1642478236" />
+            </div>
+            <div class="box5">
+                <img src="https://zoomcar-assets.zoomcar.com/pictures/original/02dd1b11f8883a54f4591e945bf6597b2832edbb.png?1633777179" />
+            </div>
+            <div class="box6">
+                <img src="https://zoomcar-assets.zoomcar.com/pictures/original/db892d64c671c21ddc32fa333b8d608f9d37cafd.jpg?1646288995" />
+            </div>
+            <div class="box7">
+                <img src="https://zoomcar-assets.zoomcar.com/pictures/original/62008d3494f5ee4eb8118692137da0772830a3eb.jpg?1633439109" />
+            </div>
+        </div>
+    
+    <!-- make money -->
+
+        <div id="container3">
+            <div class="box1">
+                <div class="small1">
+                    <img src="https://zoomcar-assets.zoomcar.com/images/original/85fef585709cb289fd06adeabd230c5383200f20.png?1545144526" />
+                </div>
+                <div class="small2">
+                    <h3>REFER AND EARN</h3>
+                    <p>You earn 1200 credits, and your friend gets 50% (up to Rs. 2500) off on their first booking of at least 8 hours.</p>
+                </div>
+            </div>
+            <div class="box2">
+                <div class="small1">
+                    <img src="https://www.zoomcar.com/img/login-card.jpg" />
+                </div>
+                <div class="small2">
+                    <h3>LOGIN</h3>
+                    <p>If you have an upcomingor a live booking,then login to view your booking.</p>
+                </div>
+            </div>
+        </div>
+    
+    
+    
+    
+    
+    
+        <div id="container4">
+            <div class="box1">
+                <!-- <img src="https://zoomcar-assets.zoomcar.com/photos/original/dffb93ebfa97040a71e476405c0c146c5718da4d.jpg?1644857465" /> -->
+                OFFERS
+            </div>
+            <div class="mainbox">
+            <div>
+                <img src="https://zoomcar-assets.zoomcar.com/photos/original/3739f2eb9738437f093a2e4a3488cff77074bc29.jpg?1640267714" />
+            </div>
+            <div>
+                <img src="https://zoomcar-assets.zoomcar.com/photos/original/dffb93ebfa97040a71e476405c0c146c5718da4d.jpg?1644857465" />
+            </div>
+            <div>
+                <img src="https://zoomcar-assets.zoomcar.com/photos/original/666985f3981f8128062ab62825f846e6542a9506.jpg?1647939840" />
+            </div>
+            </div>
+            
+        </div>
+        <div id="container5" onclick="myfu()">About us<i class="fa-solid fa-angle-down"></i></div>
+        <div id="container6">
+            <div>Zoomcar Team</div>
+            <div>Zoomcar Subscription</div>
+            <div>Zoomcar Blog</div>
+            <div>Careers @ Zoomcar</div>
+        </div>
+        <div id="container7">© Copyright 2022 Zoomcar India Private Ltd. All rights reserved</div>
+    </main>
+   
+   
+    
+    
+</body>
+</html>
+<script src="./script/index.js"></script>

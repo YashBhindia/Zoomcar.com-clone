@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/findcars.css" />
+</head>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/a0dde33553.js" crossorigin="anonymous"></script>
+<body>
+    <nav class="nav" >
+        <div id="sidebarmenu">
+            <div class="line1">
+                <div class="innerline1">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="innerline2"><a href="signup.html">Login or Signup</a></div>
+            </div>
+            <div class="line3">
+                <div class="innerline1">
+                    <i class="fa-solid fa-house"></i>
+                </div>
+                <div class="innerline2"><a href="index.html">Home</a></div>
+            </div>
+            <div class="line2">
+                <div class="innerline1">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="innerline2" onclick="myfun()" >Change City</div>
+                <div class="innerline3">Bangalore</div>
+            </div>
+            <div class="line3">
+                <div class="innerline1">
+                    <i class="fa-solid fa-shield"></i>
+                </div>
+                <div class="innerline2">Supermiler Club</div>
+            </div>
+            <div class="line3">
+                <div class="innerline1">
+                    <i class="fa-solid fa-copy"></i>
+                </div>
+                <div class="innerline2">Zoomcar Fleet Vehicles Policies</div>
+            </div>
+            <div class="line3">
+                <div class="innerline1">
+                    <i class="fa-solid fa-copy"></i>
+                </div>
+                <div class="innerline2">Zoomcar Host Vehicles Policies</div>
+            </div>
+            <div class="line3">
+                <div class="innerline1">
+                    <i class="fa-solid fa-phone-flip"></i>
+                </div>
+                <div class="innerline2">Help & Support</div>
+            </div>
+        </div>
+       <div class="overlay"></div>
+    </nav>
+    
+
+    <div id="navbar">
+        <div id="box1">
+            <div id="bar" ><i  class="fa-solid fa-bars"></i></div>
+            <div class="im"><img src="https://www.zoomcar.com/build/98e56e8b0b91e8806885a22ac2bf69a7.png" /></div></div>
+        <div id="box2">
+            <div><a class="a1" href="host.html">Become a Host</a></div>
+            <div><a class="a1" href="zms.html">ZMS</a></div>
+            <div><a class="a1" href="signup.html">Login/Signup</a></div>
+        </div>
+    </div>
+    <div id="container">
+        <div id="container2">
+            <div class="innerbox1">Seats</div>
+            <div class="innerbox2">
+                <div>1</div>
+                <hr>
+                <div>2</div>
+                <hr>
+                <div>3</div>
+            </div>
+        </div>
+        <div id="container3">
+            <div class="innerbox1">Car Types</div>
+            <div class="innerbox2">
+                <div>SUV</div>
+                <hr>
+                <div>hatchback</div>
+                <hr>
+                <div>Sedan</div>
+            </div>
+        </div>
+        <div id="container4">
+            <div class="innerbox1">Transmission</div>
+            <div class="innerbox2">
+                <div>Manual</div>
+                <hr>
+                <div>Automatic</div>
+            </div>
+        </div>
+        <div id="container5">
+            <div class="innerbox1">Delivery Type</div>
+            <div class="innerbox2">
+                <div>Home Delivery</div>
+                <hr>
+                <div>Airport</div>
+            </div>
+        </div>
+        <div id="container6">
+            <div class="innerbox1">
+                Enjoy free kilometers. If you leave the car with excess fuel compared to booking start, value of that extra fuel will be refunded to you
+            </div>
+        </div>
+    </div>
+    <div id="container7">
+        <div class="outerbox1">
+            <div class="conout1">
+                <div class="cont">
+                    <div class="cont1"></div>
+                </div>
+                <div class="cont3">Bhopal durgesh vihar,Madhya Pradesh</div>
+            </div>
+            <div class="conout2">
+                <div class="cont1">
+                    <p>START DATE/TIME</p>
+                    <h5>31 MAR,2022 05:30 AM</h5>
+                </div>
+                <div class="cont2"><i class="fa-solid fa-arrow-right-long"></i></div>
+                <div class="cont3">
+                    <p>END DATE/TIME</p>
+                    <h5>1 APR,2022 05:30 AM</h5>
+                </div>
+            </div>
+        </div>
+        <!-- <div id="mainbox1">
+            <div class="box1"><img src="https://zoomcar-assets.zoomcar.com/photographs/original/6c600fdc587df00ee65b17e3e0a4bce67ec31046.JPG?1638531593" /></div>
+            <div class="box2">
+                <h1>Hyundai Eon</h1>
+                <p>Manual.petrol.5seats</p>
+                <div class="small">
+                    <img src="https://zoomcar-assets.zoomcar.com/images/original/b04593cd90f850d14ed46ed739b0371457ef6834.png?1633947533" />
+                    <p>4.0.43,552 kms driven</p>
+                </div>
+            </div>
+            <div class="box3">1.8km Virtual hub-Nandla...</div>
+            <div class="box4">
+                <div class="smallbox1">
+                    ₹ 1,021
+                </div>
+                <div class="smallbox2"></div>
+                <div class="smallbox3">BOOK NOW</div>
+            </div>
+        </div> -->
+        <div id="mainbox">
+           
+        </div>
+
+    </div>
+
+</body>
+</html>
+<script src="./script/findcar.js"></script>

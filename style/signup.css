@@ -1,0 +1,131 @@
+#container{
+    height: 623px;
+    width: 422px;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 1.5%;
+}
+
+
+img{
+    height: 315px;
+    width: 420px;
+}
+#logincontainer{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    text-align: start;
+    height: 302px;
+    width: 422px;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    
+}
+#logincontainer>.box1{
+    height: 68px;
+    width: 388px;
+    /* border: 1px solid red; */
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 20px;
+    
+    /* align-items: center; */
+
+
+    font-weight: 600;
+    
+}
+.box1>p{
+    margin-top: 9px;
+}
+#logincontainer>.box2{
+    height: 89px;
+    width: 388px;
+    /* border: 1px solid; */
+    display: flex;
+
+}
+#logincontainer>.box3{
+    height: 49px;
+    width: 388px;
+    /* border: 1px solid red; */
+}
+#logincontainer>.box4{
+    height: 64px;
+    width: 388px;
+    /* border: 1px solid red; */
+}
+.box2>.country{
+ height: 89px;
+ width: 114.53px;
+ /* border: 1px solid red; */
+}
+.box2>.number{
+    height: 89px;
+    width: 200px;
+    /* border: 1px solid red; */
+}
+.country{
+    display: flex;
+    /* align-items: center; */
+}
+.country>div>img{
+    height: 32px;
+    width: 32px;
+    margin-left: 23px;
+    margin-top: 21px;
+   
+}
+.country>.num{
+    margin-top: 27px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin-left: 4px;
+    color: #35495e;
+    font-weight: 400;
+    font-size: 16px;
+}
+div>i{
+    margin-top: 25px;
+    margin-left: 2px;
+    color: #87d187;
+}
+.number>a{
+    font-size: 16px;
+    color: #666666;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    
+}
+.number{
+    margin-top: 27px;
+    margin-left: 5px;
+}
+.box3>p{
+    font-size: 14px;
+    color: #10a310;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
+
+}
+.box4>p{
+    font-size: 14px;
+    color: #10a310;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
+    
+}
+.box4>img{
+    height: 19px;
+    width: 19px;
+    margin-top: 13px;
+    margin-left: 17px;
+}
+.box4{
+    display: flex;
+}
+.line{
+    margin-top: 27px;
+    margin-left: 12px;
+}

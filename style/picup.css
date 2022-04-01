@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+#container{
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+#container>a>i{
+    height: 100% ;
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 10px;
+    color: #4e4e4e;
+    cursor: pointer;
+}
+#container2{
+    height: 250px;
+    width: 42.4%;
+    /* border: 1px solid red; */
+    margin: auto;    
+}
+#container2>.box1{
+    width: 100%;
+    height: 70px;
+    /* border: 1px solid red; */
+}
+#container2>.box1>#innerbox{
+    height: 50px;
+    width: 570px;
+    /* border: 1px solid; */
+    /* margin-left: 120px; */
+    margin-top: 13px;
+    color: #1f1f1f;
+    border: 0.1px solid #1f1f1f;
+    border-radius: 4px;
+    display: flex;
+   
+}
+#container2>.box1>#innerbox>.sid{
+    height: 100%;
+    width: 40px;
+    /* border: 1px solid red; */
+}
+#container2>.box1>#innerbox>#select{
+   width: 100%;
+}
+
+#container2>.box1>#innerbox>.sid>.gree{
+    height: 8px;
+    width: 8px;
+    border: 1px solid #10a310;
+    border-radius: 50%;
+    background-color: #10a310;
+    margin-top: 19px;
+    margin-left: 15px;
+}
+#select{
+    font-family: Arial;
+    font-size: 14px;
+    color: #1f1f1f;
+    font-weight: 400;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+}
+#container2>.box2{
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    cursor: pointer;
+}
+#container2>.box2>.innerbox1{
+    height:100%;
+    width: 50px;
+    /* border: 1px solid red; */
+}
+#container2>.box2>.innerbox2{
+    height: 100%;
+    width: 100%;
+    /* border:1px solid ; */
+}
+#container2>.box2>.innerbox2>a{
+    text-decoration: none;
+    color: #1f1f1f;
+}
+#container2>.box2>.innerbox1>i{
+    margin-left: 4px;
+    color: #4e4e4e;
+    margin-top: 6px;
+}
+#container2>.box2>.innerbox2{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #1f1f1f;
+    font-weight: 400;
+    padding-top: 12px;
+}
