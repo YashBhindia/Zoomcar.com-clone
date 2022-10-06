@@ -16,11 +16,10 @@ zoomcar is an indian self-drive car rental company, headquarter in Banglore, Ind
 
 - `Home Page`
 - `Login/Signup`
-- `Dynamic Navbar`
+- `Side bar`
 - `Book page`
-- `Address Details`
+- `Cart page`
 - `Payment Page`
-- `Additional Features`
 
 ## Tech Stack
 
